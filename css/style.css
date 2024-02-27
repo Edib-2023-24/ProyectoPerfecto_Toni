@@ -1,0 +1,47 @@
+/* Definir variables de color y fuente */
+:root {
+    --primary-color: #3366ff;
+    --secondary-color: #FFFFFF;
+    --background-color: #f1f1f1;
+    --font-family: 'fuentee', sans-serif;
+}
+
+/* Definir fuente personalizada */
+@font-face {
+    font-family: 'fuentee';
+    src: url('fonts/HelveticaNeue.woff') format('woff'),
+        url('fonts/HelveticaNeue.woff2') format('woff2');
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo */
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+/* Estilos del encabezado */
+h1 {
+    padding: 30px 20px;
+    gap: 10px;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
